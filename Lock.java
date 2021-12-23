@@ -8,6 +8,9 @@
 public class Lock {
 
     // the Lock class has 1 field
+    /**
+    * This stores the current combination as well as initially sets it to 0000.
+    */
     private int combination = 0000;
 
     // and 1 method

@@ -87,7 +87,7 @@ final class Main {
                         }
                         break;
 
-                    case 3:
+                    case C3:
                         break;
 
                     default:
