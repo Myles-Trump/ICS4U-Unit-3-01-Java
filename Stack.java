@@ -1,5 +1,5 @@
 /*
-* The "Stack" program 
+* The "Stack" program lets the user add and check a stack
 *
 * @author  Myles Trump
 * @version 1.0
