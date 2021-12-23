@@ -12,20 +12,20 @@ public class MrCoxallStack {
     /**
     * This is the stack's array.
     */
-    public ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
+    private ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
 
     /**
     * The Push() function adds integers to the stack.
     * @param pushNumber integer to be added to the stack
     */
-    public void Push(final int pushNumber) {
+    public void push(final int pushNumber) {
         stackAsArray.add(pushNumber);
     }
 
     /**
     * The ShowStack() function shows the user the array.
     */
-    public void ShowStack() {
+    public void showStack() {
         System.out.println("All integers in array\n****");
         for (int i : stackAsArray) {
             System.out.println(i);

@@ -53,12 +53,12 @@ final class Stack {
                         final Scanner userInt = new Scanner(System.in);
                         System.out.println("\nEnter an integer to add: ");
                         int userAddition = userInt.nextInt();
-                        stackVariable.Push(userAddition);
+                        stackVariable.push(userAddition);
                         break;
 
                     case 2:
                         System.out.println("\n");
-                        stackVariable.ShowStack();
+                        stackVariable.showStack();
                         break;
 
                     case C3:
